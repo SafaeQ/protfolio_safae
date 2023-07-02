@@ -36,7 +36,7 @@ const Navbar = () => {
           <li className=" cursor-pointer">Contact</li>
         </a>
         <div
-          className=" hover:bg-gradient-to-b bg-gradient-to-r from-[#6d7adc] cursor-pointer flex items-center gap-[10px]  px-[15px] py-[8px] rounded-lg"
+          className=" hover:bg-gradient-to-b bg-gradient-to-r from-[#60a5fa] cursor-pointer flex items-center gap-[10px]  px-[15px] py-[8px] rounded-lg"
           onClick={clickdownload}
         >
           Resume <FiDownload />

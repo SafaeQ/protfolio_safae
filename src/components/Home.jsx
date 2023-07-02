@@ -13,7 +13,7 @@ const Home = () => {
         viewport={{ once: true }}
       >
         <h1>Hi 👋, My name is</h1>
-        <h3 className="text-[3rem] max-md:text-[1.9rem] font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-500">
+        <h3 className="text-[3rem] max-md:text-[1.9rem] font-bold text-transparent bg-clip-text bg-gradient-to-r from-sky-300 to-blue-500">
           SAFAE QARSSANE
         </h3>
         <h3 className="text-[3rem] max-md:text-[1.5rem] ">
