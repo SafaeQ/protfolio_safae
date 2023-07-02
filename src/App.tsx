@@ -1,22 +1,19 @@
 import React from 'react';
+import Navbar from './components/Navbar';
+import Home from './components/Home';
+import Abouts from './components/Abouts';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div className=" max-w-[1440px] mx-[auto] my-0">
+    <Navbar />
+    <Home />
+    <Abouts />
+    <Contact />
+    <Footer />
+  </div>
   );
 }
 
