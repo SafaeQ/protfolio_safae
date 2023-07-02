@@ -21,10 +21,9 @@ const Navbar = () => {
   };
 
   return (
-    // <nav className=" backdrop-filter backdrop-blur-lg flex my-6 mx-[4rem] max-md:mx-[1rem] px-[2rem] py-[0.6rem] justify-between items-center rounded-2xl bg-gradient-to-r from-[#A370F0] to-[#792FE9] bg-opacity-5 sticky top-[24px]">
-    <nav className="z-[1000] backdrop-filter backdrop-blur-lg flex my-6 mx-[4rem] max-md:mx-[1rem] px-[2rem] py-[0.6rem] justify-between items-center rounded-2xl bg-purple-600/30 sticky top-[24px]">
+    <nav className="z-[1000] backdrop-filter backdrop-blur-lg flex my-6 mx-[4rem] max-md:mx-[1rem] px-[2rem] py-[0.6rem] justify-between items-center rounded-2xl bg-gray-300/30 sticky top-[24px]">
       <a href="#top">
-        {/* <img src={memoji} alt="Memoji" className=" h-[70px]" /> */}
+        <span alt="Memoji" className=" h-[70px]">SAFAE</span>
       </a>
       <ul className=" flex gap-[2rem] text-lg max-md:hidden items-center">
         <a href="#about">
@@ -37,7 +36,7 @@ const Navbar = () => {
           <li className=" cursor-pointer">Contact</li>
         </a>
         <div
-          className=" hover:bg-gradient-to-b bg-gradient-to-r from-[#7000fa] cursor-pointer flex items-center gap-[10px]  px-[15px] py-[8px] rounded-lg"
+          className=" hover:bg-gradient-to-b bg-gradient-to-r from-[#6d7adc] cursor-pointer flex items-center gap-[10px]  px-[15px] py-[8px] rounded-lg"
           onClick={clickdownload}
         >
           Resume <FiDownload />
