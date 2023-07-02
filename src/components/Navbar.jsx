@@ -2,6 +2,9 @@ import React from "react";
 import { useState } from "react";
 import { FiDownload } from "react-icons/fi";
 import Resume from "../assets/cv-3-safae.pdf";
+// import memoji from "../assets/image.png";
+import menu from "../assets/menu.png";
+import cross from "../assets/cross.png";
 
 const Navbar = () => {
   const [isClicked, setIsClicked] = useState(false);
@@ -13,7 +16,7 @@ const Navbar = () => {
   const clickdownload = () => {
     const link = document.createElement("a");
     link.href = Resume;
-    link.download = "Yassine - Front-end Developer - Resume";
+    link.download = "Safae - Front-end Developer - Resume";
     link.click();
   };
 
@@ -42,7 +45,7 @@ const Navbar = () => {
       </ul>
       {!isClicked && (
         <img
-        //   src={menu}
+          src={menu}
           alt="menu"
           className="w-[40px] h-[40px] rounded-[5px] cursor-pointer hidden max-md:block"
           onClick={clickHandler}
@@ -50,7 +53,7 @@ const Navbar = () => {
       )}
       {isClicked && (
         <img
-        //   src={cross}
+          src={cross}
           alt="menu"
           className="w-[40px] h-[40px] rounded-[5px] cursor-pointer hidden max-md:block"
           onClick={clickHandler}
@@ -73,11 +76,11 @@ const Navbar = () => {
             onClick={() => {
               const link = document.createElement("a");
               link.href = Resume;
-              link.download = "Yassine - Front-end Developer - Resume";
+              link.download = "Safae - Front-end Developer - Resume";
               link.click();
               setIsClicked(!isClicked);
             }}
-            onLoad="YASSINE-HAIMOUCH-resume"
+            onLoad="Safae-Qarssane-resume"
           >
             Download Resume <FiDownload />
           </div>
