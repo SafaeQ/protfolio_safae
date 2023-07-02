@@ -1,5 +1,5 @@
 import React from "react";
-// import aboutImage from "../assets/About.jpg";
+import safae from "../assets/safa.png";
 import { motion } from "framer-motion";
 
 const About = () => {
@@ -14,15 +14,6 @@ const About = () => {
         About Me
       </motion.h1>
       <div className=" flex gap-[10rem] max-xl:gap-[3rem] max-xl:flex-wrap justify-center">
-        <motion.img
-        //   src={aboutImage}
-          alt="Me"
-          initial={{ opacity: 0 }}
-          whileInView={{ x: [-100, 0], opacity: 1 }}
-          transition={{ duration: 1 }}
-          className=" w-[30%] h-[100%] rounded-xl max-xl:w-[100%]"
-          viewport={{ once: true }}
-        />
         <motion.div
           className="w-[100%] flex flex-col gap-[2rem]"
           initial={{ x: 0, opacity: 0 }}
@@ -39,6 +30,15 @@ const About = () => {
             blanditiis dolorum quo.
           </p>
         </motion.div>
+        <motion.img
+          src={safae}
+          alt="Me"
+          initial={{ opacity: 0 }}
+          whileInView={{ x: [-100, 0], opacity: 1 }}
+          transition={{ duration: 1 }}
+          className=" w-[30%] h-[100%] rounded-xl max-xl:w-[100%]"
+          viewport={{ once: true }}
+        />
       </div>
     </div>
   );
