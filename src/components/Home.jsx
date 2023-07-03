@@ -18,21 +18,12 @@ const Home = () => {
           SAFAE QARSSANE
         </h3>
         <h3 className="text-[3rem] max-md:text-[1.5rem] ">
-          I'm a Full stack Developer,
-          <br />
-          {/* Designer & Content Creator. */}
+          I'm a Full stack Developer
         </h3>
         <div className=" flex gap-[1rem] mt-[4rem] max-md:mt-[2rem]">
           <a href="https://github.com/SafaeQ" rel="noreferrer" target="_blank">
             <AiFillGithub className=" w-[30px] h-[30px] cursor-pointer" />
           </a>
-          {/* <a
-            href="https://www.instagram.com/gitcoder"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <AiFillInstagram className=" w-[30px] h-[30px] cursor-pointer" />
-          </a> */}
           <a
             href="https://www.linkedin.com/in/safae-qarssane-661101213/"
             rel="noreferrer"
