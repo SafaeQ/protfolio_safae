@@ -21,13 +21,12 @@ const About = () => {
           transition={{ duration: 1 }}
         >
           <h1 className=" text-[2.5rem] max-md:text-[2rem]">
-            I’m a software engineer mainly focused on React ecosystem.
+            I’m a full stack developer mainly focused on React ecosystem.
           </h1>
           <p className=" text-[2rem] max-md:text-[1.5rem] text-[#838697]">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis
-            autem nihil dolores deserunt delectus, tempore reiciendis tempora,
-            corrupti aperiam quas a sed quibusdam ab ipsam molestiae sint
-            blanditiis dolorum quo.
+            I am a software engineer student at ALX, a passionate and skilled
+            developer and I am particularly interested in frontend stack. I have
+            one year of experience.
           </p>
         </motion.div>
         <motion.img
