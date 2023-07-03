@@ -1,18 +1,10 @@
 import React from "react";
-// import safae from "../assets/safa.png";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
-import { FaReact, FaNodeJs, FaHtml5, FaCss3 } from "react-icons/fa";
+import { FaReact, FaNodeJs, FaHtml5, FaCss3, FaVuejs, FaPhp, FaAngular } from "react-icons/fa";
+import { SiTypescript, SiJavascript, SiNestjs, SiExpress, SiPlaywright } from "react-icons/si";
 import { motion } from "framer-motion";
 
 const Home = () => {
-  const technologies = [
-    { name: "React", icon: <FaReact className="text-blue-500" /> },
-    { name: "Node.js", icon: <FaNodeJs className="text-green-500" /> },
-    { name: "HTML", icon: <FaHtml5 className="text-red-500" /> },
-    { name: "CSS", icon: <FaCss3 className="text-indigo-500" /> },
-    // Add more technologies as needed
-  ];
-
   return (
     <div className=" flex justify-between items-center mx-[4rem] mt-[4rem] max-lg:mx-[1rem] max-lg:mt-[2rem] max-lg:gap-[4rem] max-lg:flex-col">
       <motion.div
@@ -50,16 +42,216 @@ const Home = () => {
           </a>
         </div>
       </motion.div>
-
-      {/* <motion.img
-        src={safae}
-        alt="Safae"
-        class="w-[500px] h-auto max-w-full rounded-full"
-        initial={{ x: 0, opacity: 0 }}
-        whileInView={{ y: [250, 0], opacity: 1 }}
-        transition={{ duration: 1.5 }}
-        viewport={{ once: true }}
-      /> */}
+      <div
+        style={{
+          display: "grid",
+          gridTemplateColumns: "repeat(auto-fit)",
+          gridAutoRows: "50px",
+          gridGap: 8,
+          // width: "100%",
+        }}
+      >
+        <motion.div
+          animate={{
+            rotate: [0, 360],
+            borderRadius: ["0%", "50%"],
+          }}
+          transition={{
+            duration: 2,
+            ease: "easeInOut",
+            repeat: Infinity,
+            repeatDelay: 1,
+          }}
+          className="box w-[30px] h-auto max-w-full"
+        >
+          <FaReact className="text-blue-500" size={"2rem"} />
+        </motion.div>
+        <motion.div
+          animate={{
+            rotate: [0, 360],
+            borderRadius: ["0%", "50%"],
+          }}
+          transition={{
+            duration: 2,
+            ease: "easeInOut",
+            repeat: Infinity,
+            repeatDelay: 1,
+          }}
+          className="box w-[30px] h-auto max-w-full"
+        >
+          <FaVuejs className="text-blue-500" size={"2rem"} />
+        </motion.div>
+        <motion.div
+          animate={{
+            rotate: [0, 360],
+            borderRadius: ["0%", "50%"],
+          }}
+          transition={{
+            duration: 2,
+            ease: "easeInOut",
+            repeat: Infinity,
+            repeatDelay: 1,
+          }}
+          className="box w-[30px] h-auto max-w-full"
+        >
+          <FaHtml5 className="text-blue-500" size={"2rem"} />
+        </motion.div>
+        <motion.div
+          animate={{
+            rotate: [0, 360],
+            borderRadius: ["0%", "50%"],
+          }}
+          transition={{
+            duration: 2,
+            ease: "easeInOut",
+            repeat: Infinity,
+            repeatDelay: 1,
+          }}
+          className="box w-[30px] h-auto max-w-full"
+        >
+          <FaCss3 className="text-blue-500" size={"2rem"} />
+        </motion.div>
+      </div>
+      <div
+        style={{
+          display: "grid",
+          gridTemplateColumns: "repeat(auto-fit)",
+          gridAutoRows: "50px",
+          gridGap: 8,
+          // width: "100%",
+        }}
+      >
+        <motion.div
+          animate={{
+            rotate: [0, 360],
+            borderRadius: ["0%", "50%"],
+          }}
+          transition={{
+            duration: 2,
+            ease: "easeInOut",
+            repeat: Infinity,
+            repeatDelay: 1,
+          }}
+          className="box w-[30px] h-auto max-w-full"
+        >
+          <SiTypescript className="text-blue-500" size={"2rem"} />
+        </motion.div>
+        <motion.div
+          animate={{
+            rotate: [0, 360],
+            borderRadius: ["0%", "50%"],
+          }}
+          transition={{
+            duration: 2,
+            ease: "easeInOut",
+            repeat: Infinity,
+            repeatDelay: 1,
+          }}
+          className="box w-[30px] h-auto max-w-full"
+        >
+          <SiJavascript className="text-blue-500" size={"2rem"} />
+        </motion.div>
+        <motion.div
+          animate={{
+            rotate: [0, 360],
+            borderRadius: ["0%", "50%"],
+          }}
+          transition={{
+            duration: 2,
+            ease: "easeInOut",
+            repeat: Infinity,
+            repeatDelay: 1,
+          }}
+          className="box w-[30px] h-auto max-w-full"
+        >
+          <SiNestjs className="text-blue-500" size={"2rem"} />
+        </motion.div>
+        <motion.div
+          animate={{
+            rotate: [0, 360],
+            borderRadius: ["0%", "50%"],
+          }}
+          transition={{
+            duration: 2,
+            ease: "easeInOut",
+            repeat: Infinity,
+            repeatDelay: 1,
+          }}
+          className="box w-[30px] h-auto max-w-full"
+        >
+          <FaNodeJs className="text-blue-500" size={"2rem"} />
+        </motion.div>
+      </div>
+      <div
+        style={{
+          display: "grid",
+          gridTemplateColumns: "repeat(auto-fit)",
+          gridAutoRows: "50px",
+          gridGap: 8,
+          // width: "100%",
+        }}
+      >
+        <motion.div
+          animate={{
+            rotate: [0, 360],
+            borderRadius: ["0%", "50%"],
+          }}
+          transition={{
+            duration: 2,
+            ease: "easeInOut",
+            repeat: Infinity,
+            repeatDelay: 1,
+          }}
+          className="box w-[30px] h-auto max-w-full"
+        >
+          <SiExpress className="text-blue-500" size={"2rem"} />
+        </motion.div>
+        <motion.div
+          animate={{
+            rotate: [0, 360],
+            borderRadius: ["0%", "50%"],
+          }}
+          transition={{
+            duration: 2,
+            ease: "easeInOut",
+            repeat: Infinity,
+            repeatDelay: 1,
+          }}
+          className="box w-[30px] h-auto max-w-full"
+        >
+          <FaPhp className="text-blue-500" size={"2rem"} />
+        </motion.div>
+        <motion.div
+          animate={{
+            rotate: [0, 360],
+            borderRadius: ["0%", "50%"],
+          }}
+          transition={{
+            duration: 2,
+            ease: "easeInOut",
+            repeat: Infinity,
+            repeatDelay: 1,
+          }}
+          className="box w-[30px] h-auto max-w-full"
+        >
+          <SiPlaywright className="text-blue-500" size={"2rem"} />
+        </motion.div>
+        <motion.div
+          animate={{
+            rotate: [0, 360],
+            borderRadius: ["0%", "50%"],
+          }}
+          transition={{
+            duration: 2,
+            ease: "easeInOut",
+            repeat: Infinity,
+            repeatDelay: 1,
+          }}
+          className="box w-[30px] h-auto max-w-full"
+        >
+          <FaAngular className="text-blue-500" size={"2rem"} />
+        </motion.div>
+      </div>
     </div>
   );
 };
