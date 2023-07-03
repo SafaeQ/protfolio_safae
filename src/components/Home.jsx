@@ -1,9 +1,8 @@
 import React from "react";
-import safae from "../assets/safa.png";
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
+// import safae from "../assets/safa.png";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { FaReact, FaNodeJs, FaHtml5, FaCss3 } from "react-icons/fa";
 import { motion } from "framer-motion";
-import index from '../page/tree.html'
 
 const Home = () => {
   const technologies = [
@@ -61,7 +60,6 @@ const Home = () => {
         transition={{ duration: 1.5 }}
         viewport={{ once: true }}
       /> */}
-      <index/>
     </div>
   );
 };
