@@ -3,6 +3,7 @@ import safae from "../assets/safa.png";
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
 import { FaReact, FaNodeJs, FaHtml5, FaCss3 } from "react-icons/fa";
 import { motion } from "framer-motion";
+import index from '../page/tree.html'
 
 const Home = () => {
   const technologies = [
@@ -51,7 +52,7 @@ const Home = () => {
         </div>
       </motion.div>
 
-      <motion.img
+      {/* <motion.img
         src={safae}
         alt="Safae"
         class="w-[500px] h-auto max-w-full rounded-full"
@@ -59,7 +60,8 @@ const Home = () => {
         whileInView={{ y: [250, 0], opacity: 1 }}
         transition={{ duration: 1.5 }}
         viewport={{ once: true }}
-      />
+      /> */}
+      <index/>
     </div>
   );
 };
