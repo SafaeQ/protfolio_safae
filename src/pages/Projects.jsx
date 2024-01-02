@@ -1,11 +1,11 @@
 import React from "react";
 import Project from "../components/Project";
-// import rickandmorty from "../../assets/project-1.png";
-// import magictrick from "../../assets/project-2.png";
-// import camerashop from "../../assets/project-3.png";
-// import bookshelf from "../../assets/project-4.png";
-// import reacthooks from "../assets/BeFunky-design.jpg";
-// import reactperformance from "../../assets/project-6.png";
+import apple_phone from "../assets/apple_phone.png";
+import imageinfo from "../assets/intro.png";
+import camerashop from "../assets/grh.jpg";
+import bookshelf from "../assets/gestion-des-congés-et-absences.webp";
+import heatmap from "../assets/image.png";
+import reactperformance from "../assets/testgr.jpeg";
 
 import { motion } from "framer-motion";
 
@@ -31,14 +31,14 @@ const Projects = () => {
         className=" grid grid-cols-1 gap-[5rem] md:grid-cols-2  lg:grid-cols-2 xl:grid-cols-3 "
       >
         <Project
-          // img={reacthooks}
+          img={bookshelf}
           title="LEAVES MANAGEMENT"
           github="https://github.com/SafaeQ/Gestion_de_Conge"
           desc="Employee leave management application.
           using React.js, node.js, Nest.js, TypeORM."
         />
         <Project
-          //   img={reactperformance}
+            img={imageinfo}
           title="MYTICKETS APP"
           github="https://github.com/SafaeQ/tickets_mobile"
           desc="Tickets application. using Nest.js, TypeORM,
@@ -46,11 +46,32 @@ const Projects = () => {
           demo="https://play.google.com/store/apps/details?id=org.ticketings"
         />
         <Project
-          //   img={camerashop}
+            img={apple_phone}
           title="JUST GIVE APP"
           github="https://github.com/SafaeQ/JustGive_ionic"
           desc="Application of Moroccan associations.
           using Ionic, React, TypeScript, MongoDB."
+        />
+        <Project
+          img={camerashop}
+          title="MaGrh"
+          github="https://github.com/Naotnie21/maGRH"
+          demo="https://ma-grh.fr/connexion"
+          desc="Creation of a laravel web application for the company in order to correctly manage its HR requests."
+        />
+        <Project
+          img={heatmap}
+          title="Heatmap"
+          github="https://github.com/SafaeQ/Mentalome_um6p"
+          demo=""
+          desc="Creation of a laravel web application for heatmap using the techologies vue.js , laravel and Vega & Vega-Lite for heatmap."
+        />
+        <Project
+          img={reactperformance}
+          title="newelec"
+          github="https://github.com/SafaeQ/newelec"
+          demo="https://eclectic-semolina-b96d2c.netlify.app/"
+          desc="Creation of a site web for a company using the techologies react.js and laravel. this is just a part from the project!"
         />
       </motion.div>
     </div>

@@ -1,8 +1,7 @@
-import React from "react";
-import { useState } from "react";
+import React, { useState } from "react";
 import { FiDownload } from "react-icons/fi";
-import Resume from "../assets/cv-3-safae.pdf";
-// import memoji from "../assets/image.png";
+import Resume from "../assets/Safae qarssane_cv.pdf";
+// import Resume_en from "../assets/Safae qarssane en_1.pdf";
 import menu from "../assets/menu.png";
 import cross from "../assets/cross.png";
 
@@ -16,7 +15,7 @@ const Navbar = () => {
   const clickdownload = () => {
     const link = document.createElement("a");
     link.href = Resume;
-    link.download = "Safae - Front-end Developer - Resume";
+    link.download = "Safae - full Stack Developer - Resume";
     link.click();
   };
 
