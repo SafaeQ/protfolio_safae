@@ -20,13 +20,18 @@ const About = () => {
           whileInView={{ x: [250, 0], opacity: 1 }}
           transition={{ duration: 1 }}
         >
-          <h1 className=" text-[2.5rem] max-md:text-[2rem]">
-            I’m a full stack developer mainly focused on React ecosystem.
+          <h1 className=" text-[2rem] max-md:text-[2rem]">
+            I am a full stack developer create dynamic and interactive web
+            applications using React, Node.js, MongoDB, and other technologies.
           </h1>
-          <p className=" text-[2rem] max-md:text-[1.5rem] text-[#838697]">
-            I am a software engineer student at ALX, a passionate and skilled
-            developer and I am particularly interested in frontend stack. I have
-            one year of experience.
+          <p className=" text-[1.3rem] max-md:text-[1.5rem] text-[#838697]">
+            I graduated from YouCode Maroc, a renowned IT school that offers
+            innovative and hands-on training in web development. There, I
+            learned the fundamentals of programming, as well as how to use
+            popular frameworks and tools to build responsive and user-friendly
+            websites and mobile apps. I also developed my problem-solving,
+            critical thinking, and communication skills, which enable me to
+            collaborate effectively with others.
           </p>
         </motion.div>
         <motion.img
