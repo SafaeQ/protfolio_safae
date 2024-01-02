@@ -4,6 +4,9 @@ import { AiFillGithub, AiFillEye } from "react-icons/ai";
 const Project = (props) => {
   return (
     <div className="max-w-sm  border border-gray-200 rounded-lg shadow bg-[#101319] dark:border-gray-700">
+      <a href={props.demo} rel="noreferrer" target="_blank">
+        <img className="rounded-t-lg" src={props.img} alt="project" />
+      </a>
       <div className="p-5">
         <a href={props.demo} rel="noreferrer" target="_blank">
           <h5 className="mb-2 text-2xl font-bold tracking-tight text-white">
