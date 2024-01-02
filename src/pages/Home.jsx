@@ -93,7 +93,7 @@ const Home = () => {
             }}
             className="box w-[30px] h-auto max-w-full"
           >
-            <FaReact className="text-blue-500" size={"2rem"} />
+            <FaReact className="text-blue-500" size={"2rem"} style={{backgroundColor: '#149eca'}}/>
           </motion.div>
           <motion.div
             animate={{
@@ -108,7 +108,7 @@ const Home = () => {
             }}
             className="box w-[30px] h-auto max-w-full"
           >
-            <FaVuejs className="text-blue-500" size={"2rem"} />
+            <FaVuejs className="text-blue-500" size={"2rem"} style={{backgroundColor: '#42b883'}}/>
           </motion.div>
           <motion.div
             animate={{
@@ -123,7 +123,7 @@ const Home = () => {
             }}
             className="box w-[30px] h-auto max-w-full"
           >
-            <FaHtml5 className="text-blue-500" size={"2rem"} />
+            <FaHtml5 className="text-blue-500" size={"2rem"} style={{backgroundColor: '#e96228'}}/>
           </motion.div>
           <motion.div
             animate={{
@@ -138,7 +138,7 @@ const Home = () => {
             }}
             className="box w-[30px] h-auto max-w-full"
           >
-            <FaCss3 className="text-blue-500" size={"2rem"} />
+            <FaCss3 className="text-blue-500" size={"2rem"} style={{backgroundColor: '#2862e9'}}/>
           </motion.div>
         </div>
         <div
@@ -163,7 +163,7 @@ const Home = () => {
             }}
             className="box w-[30px] h-auto max-w-full"
           >
-            <SiTypescript className="text-blue-500" size={"2rem"} />
+            <SiTypescript className="text-blue-600" size={"2rem"} style={{backgroundColor: 'blue'}} />
           </motion.div>
           <motion.div
             animate={{
@@ -178,7 +178,7 @@ const Home = () => {
             }}
             className="box w-[30px] h-auto max-w-full"
           >
-            <SiJavascript className="text-blue-500" size={"2rem"} />
+            <SiJavascript className="text-blue-500" size={"2rem"} style={{backgroundColor: 'yellow'}}/>
           </motion.div>
           <motion.div
             animate={{
@@ -193,7 +193,7 @@ const Home = () => {
             }}
             className="box w-[30px] h-auto max-w-full"
           >
-            <SiNestjs className="text-blue-500" size={"2rem"} />
+            <SiNestjs className="text-blue-500" size={"2rem"} style={{backgroundColor: '#e0234e'}}/>
           </motion.div>
           <motion.div
             animate={{
@@ -208,7 +208,7 @@ const Home = () => {
             }}
             className="box w-[30px] h-auto max-w-full"
           >
-            <FaNodeJs className="text-blue-500" size={"2rem"} />
+            <FaNodeJs className="text-blue-500" size={"2rem"} style={{backgroundColor: 'green'}}/>
           </motion.div>
         </div>
         <div
@@ -248,7 +248,7 @@ const Home = () => {
             }}
             className="box w-[30px] h-auto max-w-full"
           >
-            <FaPhp className="text-blue-500" size={"2rem"} />
+            <FaPhp className="text-blue-500" size={"2rem"} style={{backgroundColor: '#4d588e'}}/>
           </motion.div>
           <motion.div
             animate={{
@@ -278,7 +278,7 @@ const Home = () => {
             }}
             className="box w-[30px] h-auto max-w-full"
           >
-            <FaAngular className="text-blue-500" size={"2rem"} />
+            <FaAngular className="text-blue-500" size={"2rem"} style={{backgroundColor: '#e0234e'}}/>
           </motion.div>
         </div>
       </div>
