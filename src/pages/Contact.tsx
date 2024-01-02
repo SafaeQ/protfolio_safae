@@ -25,9 +25,9 @@ const Contact = () => {
           transition={{ duration: 1 }}
         >
           <p className=" text-[1.5rem] mb-[2rem]">
-            Feel free to reach out! If you believe we'd make a great team and
+            Feel free to reach out!✌ If you believe we'd make a great team and
             you're interested in collaborating, send me an email. Let's make the
-            most of it and have a fantastic time working together.
+            most of it and have a fantastic👌 time working together.
           </p>
           <h1 className=" flex items-center gap-[1rem] text-[1.5rem] max-lg:text-[1rem]">
             {" "}

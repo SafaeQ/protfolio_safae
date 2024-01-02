@@ -36,7 +36,7 @@ const Home = () => {
             SAFAE QARSSANE
           </h3>
           <h3 className="text-[3rem] max-md:text-[1.5rem] ">
-            I'm a Full stack Developer
+            I'm a Full stack Developer💻
           </h3>
           <div className=" flex gap-[1rem] mt-[4rem] max-md:mt-[2rem]">
             <a

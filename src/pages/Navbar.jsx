@@ -22,7 +22,7 @@ const Navbar = () => {
   return (
     <nav className="z-[1000] backdrop-filter backdrop-blur-lg flex my-6 mx-[4rem] max-md:mx-[1rem] px-[2rem] py-[0.6rem] justify-between items-center rounded-2xl bg-gray-300/30 sticky top-[24px]">
       <a href="#top">
-        <span alt="Memoji" className=" h-[70px]">SAFAE</span>
+        <span alt="Memoji" className=" h-[70px]">SAFAE✌</span>
       </a>
       <ul className=" flex gap-[2rem] text-lg max-md:hidden items-center">
         <a href="#about">
