@@ -28,7 +28,8 @@ const Projects = () => {
         whileInView={{ x: [-100, 0], opacity: 1 }}
         transition={{ duration: 1 }}
         viewport={{ once: true }}
-        className=" grid grid-cols-1 gap-[5rem] md:grid-cols-2  lg:grid-cols-2 xl:grid-cols-3 "
+        className=" grid grid-cols-1 gap-[5rem] md:grid-cols-2  lg:grid-cols-2 xl:grid-cols-3"
+        style={{ alignSelf: "center" }}
       >
         <Project
           img={bookshelf}
@@ -38,7 +39,7 @@ const Projects = () => {
           using React.js, node.js, Nest.js, TypeORM."
         />
         <Project
-            img={imageinfo}
+          img={imageinfo}
           title="MYTICKETS APP"
           github="https://github.com/SafaeQ/tickets_mobile"
           desc="Tickets application. using Nest.js, TypeORM,
@@ -46,7 +47,7 @@ const Projects = () => {
           demo="https://play.google.com/store/apps/details?id=org.ticketings"
         />
         <Project
-            img={apple_phone}
+          img={apple_phone}
           title="JUST GIVE APP"
           github="https://github.com/SafaeQ/JustGive_ionic"
           desc="Application of Moroccan associations.
