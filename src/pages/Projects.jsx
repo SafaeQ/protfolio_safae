@@ -5,7 +5,7 @@ import imageinfo from "../assets/intro.png";
 import camerashop from "../assets/logine.jpeg";
 import bookshelf from "../assets/gestion-des-congés-et-absences.webp";
 import heatmap from "../assets/image.png";
-import reactperformance from "../assets/testgr.jpeg";
+import reactperformance from "../assets/test.jpeg";
 
 import { motion } from "framer-motion";
 
@@ -56,7 +56,7 @@ const Projects = () => {
         <Project
           img={camerashop}
           title="MaGrh"
-          github="https://github.com/SafaeQ/ma-grh"
+          // github="https://github.com/SafaeQ/ma-grh"
           // demo="https://ma-grh.fr/connexion"
           desc="Creation of a laravel web application for the company in order to correctly manage its HR requests."
         />
@@ -69,9 +69,9 @@ const Projects = () => {
         />
         <Project
           img={reactperformance}
-          title="newelec"
+          title="Project"
           github="https://github.com/SafaeQ/newelec"
-          demo="https://eclectic-semolina-b96d2c.netlify.app/"
+          // demo="https://eclectic-semolina-b96d2c.netlify.app/"
           desc="Creation of a site web for a company using the techologies react.js and laravel. this is just a part from the project!"
         />
       </motion.div>
