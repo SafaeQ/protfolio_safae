@@ -40,7 +40,7 @@ const About = () => {
           initial={{ opacity: 0 }}
           whileInView={{ x: [-100, 0], opacity: 1 }}
           transition={{ duration: 1 }}
-          className=" w-[30%] h-[100%] rounded-xl max-xl:w-[100%]"
+          className=" w-[30%] h-[100%] rounded-xl max-xl:w-[50%]"
           viewport={{ once: true }}
         />
       </div>
