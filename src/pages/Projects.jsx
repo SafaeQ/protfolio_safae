@@ -2,7 +2,7 @@ import React from "react";
 import Project from "../components/Project";
 import apple_phone from "../assets/apple_phone.png";
 import imageinfo from "../assets/intro.png";
-import camerashop from "../assets/grh.jpg";
+import camerashop from "../assets/logine.jpeg";
 import bookshelf from "../assets/gestion-des-congés-et-absences.webp";
 import heatmap from "../assets/image.png";
 import reactperformance from "../assets/testgr.jpeg";
@@ -56,8 +56,8 @@ const Projects = () => {
         <Project
           img={camerashop}
           title="MaGrh"
-          github="https://github.com/Naotnie21/maGRH"
-          demo="https://ma-grh.fr/connexion"
+          github="https://github.com/SafaeQ/ma-grh"
+          // demo="https://ma-grh.fr/connexion"
           desc="Creation of a laravel web application for the company in order to correctly manage its HR requests."
         />
         <Project
