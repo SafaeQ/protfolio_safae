@@ -15,8 +15,10 @@ import {
   SiNestjs,
   SiExpress,
   SiPlaywright,
+  SiGmail,
 } from "react-icons/si";
 import { motion } from "framer-motion";
+import { FaSquareTwitter } from "react-icons/fa6";
 
 const Home = () => {
   return (
@@ -50,6 +52,22 @@ const Home = () => {
               target="_blank"
             >
               <AiFillLinkedin className=" w-[30px] h-[30px] cursor-pointer" />
+            </a>
+            <a
+              href="https://twitter.com/safa41400"
+              rel="noreferrer"
+              target="_blank"
+              className="text-gray-500 hover:text-white"
+            >
+              <FaSquareTwitter className="w-[30px] h-[30px] cursor-pointer" />
+            </a>
+            <a
+              href="mailto:qarssane.safae@gmail.com"
+              rel="noreferrer"
+              target="_blank"
+              className="text-gray-500 hover:text-white"
+            >
+              <SiGmail className="w-[30px] h-[30px] cursor-pointer" />
             </a>
           </div>
         </motion.div>

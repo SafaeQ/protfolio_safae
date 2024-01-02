@@ -1,5 +1,7 @@
 import React from "react";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import { FaSquareTwitter } from "react-icons/fa6";
+
 
 const Footer = () => {
   return (
@@ -9,7 +11,7 @@ const Footer = () => {
         <span className="text-sm text-gray-500 sm:text-centertext-gray-400">
           Designed & Developed by{" "}
           <a
-            href="https://github.com/yassinehaimouch"
+            href="https://github.com/SafaeQ"
             rel="noreferrer"
             target="_blank"
             className="hover:underline"
@@ -26,14 +28,14 @@ const Footer = () => {
           >
             <AiFillGithub className="w-[20px] h-[20px]" />
           </a>
-          {/* <a
-            href="https://www.instagram.com/gitcoder/"
+          <a
+            href="https://twitter.com/safa41400"
             rel="noreferrer"
             target="_blank"
             className="text-gray-500 hover:text-white"
           >
-            <AiFillInstagram className="w-[20px] h-[20px]" />
-          </a> */}
+            <FaSquareTwitter className="w-[20px] h-[20px]" />
+          </a>
           <a
             href="https://www.linkedin.com/in/safae-qarssane-661101213/"
             rel="noreferrer"
