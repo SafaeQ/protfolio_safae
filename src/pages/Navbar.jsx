@@ -4,6 +4,7 @@ import Resume from "../assets/Safae qarssane_cv.pdf";
 // import Resume_en from "../assets/Safae qarssane en_1.pdf";
 import menu from "../assets/menu.png";
 import cross from "../assets/cross.png";
+import ButtonResume from "../components/buttons/Button.jsx";
 
 const Navbar = () => {
   const [isClicked, setIsClicked] = useState(false);
@@ -22,7 +23,9 @@ const Navbar = () => {
   return (
     <nav className="z-[1000] backdrop-filter backdrop-blur-lg flex my-6 mx-[4rem] max-md:mx-[1rem] px-[2rem] py-[0.6rem] justify-between items-center rounded-2xl bg-gray-300/30 sticky top-[24px]">
       <a href="#top">
-        <span alt="Memoji" className=" h-[70px]">SAFAE✌</span>
+        <span alt="Memoji" className=" h-[70px]">
+          SAFAE✌
+        </span>
       </a>
       <ul className=" flex gap-[2rem] text-lg max-md:hidden items-center">
         <a href="#about">
@@ -34,12 +37,13 @@ const Navbar = () => {
         <a href="#contact">
           <li className=" cursor-pointer">Contact</li>
         </a>
-        <div
-          className=" hover:bg-gradient-to-b bg-gradient-to-r from-[#60a5fa] cursor-pointer flex items-center gap-[10px]  px-[15px] py-[8px] rounded-lg"
+        {/* <div
+          className=" hover:bg-gradient-to-b bg-gradient-to-r from-[#5027e1] cursor-pointer flex items-center gap-[10px]  px-[15px] py-[8px] rounded-lg"
           onClick={clickdownload}
         >
           Resume <FiDownload />
-        </div>
+        </div> */}
+        <ButtonResume />
       </ul>
       {!isClicked && (
         <img
